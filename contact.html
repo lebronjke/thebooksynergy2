@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — TheBookSynergy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="nav">
+    <a href="index.html" class="brand">
+      <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="16" cy="16" r="10" stroke="#2F5D5A" stroke-width="1.8"/>
+        <circle cx="24" cy="16" r="10" stroke="#C08A34" stroke-width="1.8"/>
+        <circle cx="20" cy="24" r="10" stroke="#202C3C" stroke-width="1.8"/>
+      </svg>
+      <span class="brand-name">The<b>Book</b>Synergy</span>
+    </a>
+    <nav class="links">
+      <div class="has-drop">
+        <a href="index.html#services">Services</a>
+        <div class="dropdown">
+          <a href="services/beta-reading.html">Beta Reading</a>
+          <a href="services/developmental-notes.html">Developmental Notes</a>
+          <a href="services/author-support.html">Author Support</a>
+          <a href="services/book-editing.html">Book Editing</a>
+          <a href="services/book-promotion.html">Book Promotion</a>
+          <a href="services/press-media.html">Press &amp; Media / Book Release</a>
+        </div>
+      </div>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <a href="contact.html" class="nav-cta">Get started</a>
+  </div>
+</header>
+
+<section class="service-hero">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+    <div class="eyebrow">Get in touch</div>
+    <h1>Not sure which<br>service <em>fits</em>?</h1>
+    <p class="lead" style="max-width:600px;">Tell us a bit about your book and where you're at — we'll point you to the right service, or put together a combination that fits.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="form-grid" style="grid-template-columns:1.2fr 0.8fr; gap:48px; align-items:start;">
+      <form class="form-card" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="form-grid">
+          <div class="field">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="field full">
+            <label for="interest">Which service interests you?</label>
+            <select id="interest" name="interest">
+              <option>Not sure yet</option>
+              <option>Beta Reading</option>
+              <option>Developmental Notes</option>
+              <option>Author Support</option>
+              <option>Book Editing</option>
+              <option>Book Promotion</option>
+              <option>Press &amp; Media / Book Release</option>
+              <option>A combination of services</option>
+            </select>
+          </div>
+          <div class="field full">
+            <label for="message">Tell us about your book</label>
+            <textarea id="message" name="message" placeholder="Genre, where you're at in the process, what kind of help you're looking for..." required></textarea>
+          </div>
+        </div>
+        <button type="submit" class="submit-btn">Send message</button>
+        <p class="form-note">We typically reply within 2 business days.</p>
+      </form>
+
+      <div>
+        <h3>Reach us directly</h3>
+        <p style="color:var(--slate); font-size:15px;">Prefer email? Write to us any time.</p>
+        <p style="margin-top:16px;"><a href="mailto:hello@thebooksynergy.com" style="font-weight:600; color:var(--teal); text-decoration:none;">hello@thebooksynergy.com</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="footer-bottom">
+      <span>© 2026 TheBookSynergy</span>
+      <a href="index.html" style="text-decoration:none;">← Back to home</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
