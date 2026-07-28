@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Developmental Notes — TheBookSynergy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="nav">
+    <a href="../index.html" class="brand">
+      <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="16" cy="16" r="10" stroke="#2F5D5A" stroke-width="1.8"/>
+        <circle cx="24" cy="16" r="10" stroke="#C08A34" stroke-width="1.8"/>
+        <circle cx="20" cy="24" r="10" stroke="#202C3C" stroke-width="1.8"/>
+      </svg>
+      <span class="brand-name">The<b>Book</b>Synergy</span>
+    </a>
+    <nav class="links">
+      <div class="has-drop">
+        <a href="../index.html#services">Services</a>
+        <div class="dropdown">
+          <a href="beta-reading.html">Beta Reading</a>
+          <a href="developmental-notes.html">Developmental Notes</a>
+          <a href="author-support.html">Author Support</a>
+          <a href="book-editing.html">Book Editing</a>
+          <a href="book-promotion.html">Book Promotion</a>
+          <a href="press-media.html">Press &amp; Media / Book Release</a>
+        </div>
+      </div>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+    <a href="../contact.html" class="nav-cta">Get started</a>
+  </div>
+</header>
+
+<section class="service-hero">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="../index.html">Home</a> / <a href="../index.html#services">Services</a> / Developmental Notes</div>
+    <div class="eyebrow">Service 02</div>
+    <h1>Developmental Notes</h1>
+    <p class="lead" style="max-width:600px;">Structural feedback on story arc, chapter balance, and where reader interest rises or drops — the big-picture notes that shape a strong revision.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow amber">What it is</div>
+      <h2>Feedback on the architecture of your story</h2>
+      <p>Developmental notes go beyond a single reader's reaction — they look at the shape of the whole manuscript. Is the story arc balanced? Does the middle sag? Are subplots pulling their weight? This is the level of feedback that helps you revise with a clear plan, not just a list of moments to fix.</p>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">How it works</div>
+      <h2>From manuscript to structural map</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="tag">Step 1</div>
+        <h4>Submit your manuscript</h4>
+        <p>Send your draft along with a short note on what stage of revision you're in.</p>
+      </div>
+      <div class="step">
+        <div class="tag">Step 2</div>
+        <h4>Full structural read</h4>
+        <p>An editor reads the entire manuscript, mapping arc, pacing, and chapter balance.</p>
+      </div>
+      <div class="step">
+        <div class="tag">Step 3</div>
+        <h4>Notes are compiled</h4>
+        <p>Findings are organized into a clear report — what's working structurally, and what needs attention.</p>
+      </div>
+      <div class="step">
+        <div class="tag">Step 4</div>
+        <h4>Review call</h4>
+        <p>A short call walks through the notes together, so nothing is left ambiguous.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow amber">What's included</div>
+      <h2>Every developmental read covers</h2>
+    </div>
+    <ul class="included-list">
+      <li>A full-manuscript structural read by one editor</li>
+      <li>A written report covering story arc, pacing, and chapter balance</li>
+      <li>Notes on subplot strength and whether every thread earns its place</li>
+      <li>A revision roadmap — prioritized, not just a list of issues</li>
+      <li>One follow-up call to walk through the notes</li>
+    </ul>
+  </div>
+</section>
+
+<section class="dark" id="submit">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow amber">Submit for developmental notes</div>
+      <h2 style="color:var(--cream);">Ready for a structural read?</h2>
+      <p>Fill in the form below and attach your manuscript.</p>
+    </div>
+
+    <form class="form-card" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" enctype="multipart/form-data">
+      <input type="hidden" name="service" value="Developmental Notes">
+      <div class="form-grid">
+        <div class="field">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="title">Book title</label>
+          <input type="text" id="title" name="book_title" required>
+        </div>
+        <div class="field">
+          <label for="genre">Genre</label>
+          <input type="text" id="genre" name="genre" required>
+        </div>
+        <div class="field">
+          <label for="stage">Revision stage</label>
+          <select id="stage" name="stage">
+            <option>First draft</option>
+            <option>Second draft</option>
+            <option>Polished draft, unsure what's missing</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="timeline">Preferred turnaround</label>
+          <select id="timeline" name="timeline">
+            <option>2 weeks</option>
+            <option>3 weeks</option>
+            <option>4+ weeks</option>
+          </select>
+        </div>
+        <div class="field full">
+          <label for="notes">Any specific structural concerns?</label>
+          <textarea id="notes" name="notes" placeholder="e.g. the middle feels slow, unsure if the subplot earns its space..."></textarea>
+        </div>
+        <div class="field full">
+          <label for="manuscript">Attach your manuscript</label>
+          <div class="file-field">
+            <input type="file" id="manuscript" name="manuscript" accept=".pdf,.doc,.docx" required>
+            <span>PDF or Word document, up to 10MB</span>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="submit-btn">Submit for developmental notes</button>
+      <p class="form-note">Submissions are reviewed within 2–3 business days.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="footer-bottom">
+      <span>© 2026 TheBookSynergy</span>
+      <a href="../index.html" style="text-decoration:none;">← Back to home</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

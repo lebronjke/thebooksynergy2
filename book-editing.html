@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book Editing — TheBookSynergy</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="nav">
+    <a href="../index.html" class="brand">
+      <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="16" cy="16" r="10" stroke="#2F5D5A" stroke-width="1.8"/>
+        <circle cx="24" cy="16" r="10" stroke="#C08A34" stroke-width="1.8"/>
+        <circle cx="20" cy="24" r="10" stroke="#202C3C" stroke-width="1.8"/>
+      </svg>
+      <span class="brand-name">The<b>Book</b>Synergy</span>
+    </a>
+    <nav class="links">
+      <div class="has-drop">
+        <a href="../index.html#services">Services</a>
+        <div class="dropdown">
+          <a href="beta-reading.html">Beta Reading</a>
+          <a href="developmental-notes.html">Developmental Notes</a>
+          <a href="author-support.html">Author Support</a>
+          <a href="book-editing.html">Book Editing</a>
+          <a href="book-promotion.html">Book Promotion</a>
+          <a href="press-media.html">Press &amp; Media / Book Release</a>
+        </div>
+      </div>
+      <a href="../about.html">About</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+    <a href="../contact.html" class="nav-cta">Get started</a>
+  </div>
+</header>
+
+<section class="service-hero">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="../index.html">Home</a> / <a href="../index.html#services">Services</a> / Book Editing</div>
+    <div class="eyebrow">Service 04</div>
+    <h1>Book Editing</h1>
+    <p class="lead" style="max-width:600px;">Line-level and copy editing that tightens your prose, fixes grammar and consistency issues, and keeps your voice fully intact.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow amber">What it is</div>
+      <h2>Sentence-level polish, not a rewrite</h2>
+      <p>Book editing focuses on the sentence and paragraph level — grammar, clarity, word choice, consistency in names and timelines, and rhythm. This is the pass that comes after the big structural questions are settled, when it's time to make every sentence read as cleanly as it can.</p>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow">How it works</div>
+      <h2>From draft to polished manuscript</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="tag">Step 1</div>
+        <h4>Submit your manuscript</h4>
+        <p>Send your draft and let us know if you want a sample edit first.</p>
+      </div>
+      <div class="step">
+        <div class="tag">Step 2</div>
+        <h4>Sample edit (optional)</h4>
+        <p>We edit a short sample chapter so you can see the approach before committing.</p>
+      </div>
+      <div class="step">
+        <div class="tag">Step 3</div>
+        <h4>Full edit pass</h4>
+        <p>Your editor works through the manuscript with tracked changes and margin notes.</p>
+      </div>
+      <div class="step">
+        <div class="tag">Step 4</div>
+        <h4>You review and approve</h4>
+        <p>You receive the edited file plus a short summary of recurring patterns to watch for.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow amber">What's included</div>
+      <h2>Every editing pass covers</h2>
+    </div>
+    <ul class="included-list">
+      <li>Grammar, punctuation, and spelling corrections throughout</li>
+      <li>Consistency checks for names, timelines, and details</li>
+      <li>Line-level suggestions for clarity and rhythm, tracked for your review</li>
+      <li>A short report on recurring patterns in your writing</li>
+      <li>One round of follow-up questions after you review the edit</li>
+    </ul>
+  </div>
+</section>
+
+<section class="dark" id="submit">
+  <div class="wrap">
+    <div class="section-head">
+      <div class="eyebrow amber">Submit for editing</div>
+      <h2 style="color:var(--cream);">Ready for a polish pass?</h2>
+      <p>Fill in the form below and attach your manuscript.</p>
+    </div>
+
+    <form class="form-card" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" enctype="multipart/form-data">
+      <input type="hidden" name="service" value="Book Editing">
+      <div class="form-grid">
+        <div class="field">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="title">Book title</label>
+          <input type="text" id="title" name="book_title" required>
+        </div>
+        <div class="field">
+          <label for="wordcount">Approx. word count</label>
+          <input type="text" id="wordcount" name="word_count">
+        </div>
+        <div class="field full">
+          <label for="sample">Would you like a sample edit first?</label>
+          <select id="sample" name="sample_edit">
+            <option>Yes, please</option>
+            <option>No, go straight to full edit</option>
+          </select>
+        </div>
+        <div class="field full">
+          <label for="notes">Anything specific to flag?</label>
+          <textarea id="notes" name="notes" placeholder="e.g. tends to run long, watch for tense shifts, keep the dialogue voice as-is..."></textarea>
+        </div>
+        <div class="field full">
+          <label for="manuscript">Attach your manuscript</label>
+          <div class="file-field">
+            <input type="file" id="manuscript" name="manuscript" accept=".pdf,.doc,.docx" required>
+            <span>Word document preferred (for tracked changes), up to 10MB</span>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="submit-btn">Submit for editing</button>
+      <p class="form-note">Submissions are reviewed within 2–3 business days.</p>
+    </form>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="footer-bottom">
+      <span>© 2026 TheBookSynergy</span>
+      <a href="../index.html" style="text-decoration:none;">← Back to home</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
