@@ -209,3 +209,7 @@ footer.site{padding:48px 0 30px; border-top:1px solid var(--line); background:va
   .footer-grid{grid-template-columns:1fr 1fr;}
   nav.links{display:none;}
 }
+.brand-logo-wrap{position:relative; width:46px; height:46px; display:flex; align-items:center; justify-content:center; flex-shrink:0;}
+.brand-logo-wrap img{width:100%; height:100%; border-radius:50%; object-fit:cover; animation:spin-logo 8s linear infinite;}
+@keyframes spin-logo{ to{ transform:rotate(360deg); } }
+footer .brand-logo-wrap{width:36px; height:36px;}
